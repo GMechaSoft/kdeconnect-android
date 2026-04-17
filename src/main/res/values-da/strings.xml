@@ -148,4 +148,6 @@
     <item/>
     <item>Dark</item>
   </string-array>
+    <string name="pref_bubble_title">Flydende boble</string>
+    <string name="pref_bubble_summary">Vis en flydende boble for hurtig udklipsholder-synkronisering</string>
 </resources>

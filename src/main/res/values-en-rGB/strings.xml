@@ -420,4 +420,6 @@
   <string name="mpris_keepwatching_settings_title">Continue playing</string>
   <string name="mpris_keepwatching_settings_summary">Show a silent notification to continue playing on this device after closing media</string>
   <string name="notification_channel_keepwatching">Continue playing</string>
+    <string name="pref_bubble_title">Floating Bubble</string>
+    <string name="pref_bubble_summary">Show a floating bubble for quick clipboard sync</string>
 </resources>

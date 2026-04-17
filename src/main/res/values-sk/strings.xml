@@ -484,4 +484,6 @@
   <string name="pref_presenter_enable_volume_keys_summary">V pohotovostnom režime nie je podporované na verziách Android medzi 13 a 15</string>
   <string name="presenter_volume_keys_foreground_tip">Môžete uzamknúť vaše zariadenie a použiť klávesy hlasitosti na prechod na predchádzajúci a nasledujúci snímok</string>
   <string name="presenter_volume_keys_tip">Môžete uzamknúť vaše zariadenie a použiť klávesy hlasitosti na prechod na predchádzajúci a nasledujúci snímok</string>
+  <string name="pref_bubble_title">Plávajúca bublina</string>
+  <string name="pref_bubble_summary">Zobrazuje plávajúcu bublinu na rýchlu synchronizáciu schránky</string>
 </resources>

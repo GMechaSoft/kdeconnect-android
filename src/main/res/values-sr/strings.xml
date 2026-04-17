@@ -147,4 +147,6 @@
     <item>Light</item>
     <item>Dark</item>
   </string-array>
+    <string name="pref_bubble_title">Плутајући мехурић</string>
+    <string name="pref_bubble_summary">Прикажи плутајући мехурић за брзу синхронизацију оставе</string>
 </resources>

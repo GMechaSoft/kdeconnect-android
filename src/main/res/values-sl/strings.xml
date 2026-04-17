@@ -484,4 +484,6 @@
   <string name="pref_presenter_enable_volume_keys_summary">V stanju pripravljenosti ni podprto v različicah Androida med 13 in 15</string>
   <string name="presenter_volume_keys_foreground_tip">Zaslon lahko pustite vklopljen, če želite s tipkama za glasnost preskočiti na prejšnjo/naslednjo sliko</string>
   <string name="presenter_volume_keys_tip">Zaslon lahko pustite vklopljen ali zaklenete napravo, da se s tipkama za glasnost premaknete na prejšnjo/naslednjo sliko</string>
+  <string name="pref_bubble_title">Plavajoča mehurčka</string>
+  <string name="pref_bubble_summary">Prikaži plavajočo mehurčko za hiter sinhronizaciji odložišča</string>
 </resources>

@@ -392,4 +392,6 @@
   <string name="everyone_else">Visiems, kas per ilgus metus talkino KDE Connect</string>
   <string name="send_clipboard">Siųsti iškarpinę</string>
   <string name="tap_to_execute">Bakstelėkite, norėdami vykdyti</string>
+    <string name="pref_bubble_title">Slankiojantis burbulas</string>
+    <string name="pref_bubble_summary">Rodyti slankiojantį burbulą greitam iškarpinės sinchronizavimui</string>
 </resources>

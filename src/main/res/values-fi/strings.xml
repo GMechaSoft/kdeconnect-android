@@ -457,4 +457,6 @@
   <string name="device_host_invalid">Konenimi on virheellinen. Käytä kelvollista konenimeä tai IPv4- tai IPv6-osoitetta.</string>
   <string name="device_host_duplicate">Konenimi löytyy jo luettelosta</string>
   <string name="enable_fullscreen">Käytä koko näyttöä</string>
+  <string name="pref_bubble_title">Liu\'uuttava kupla</string>
+  <string name="pref_bubble_summary">Näyttää liu\'uavan kuplan nopeaan leikepöydän synkronointia varten</string>
 </resources>

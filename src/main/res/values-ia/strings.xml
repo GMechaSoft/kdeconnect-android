@@ -224,4 +224,6 @@
   <string name="mpris_keepwatching_settings_title">Continua a executar</string>
   <string name="notification_channel_keepwatching">Continua a executar</string>
   <string name="enable_fullscreen">Habilita Schermo plen</string>
+  <string name="pref_bubble_title">Bulle flottante</string>
+  <string name="pref_bubble_summary">Monstrar un bulle flottante pro un sincronisation rapid del portapapieres</string>
 </resources>

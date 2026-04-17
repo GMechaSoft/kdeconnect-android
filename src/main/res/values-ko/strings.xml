@@ -455,4 +455,6 @@
   <string name="pref_presenter_enable_volume_keys_summary">안드로이드 13 이상 15 이하에서는 대기 모드에서 지원하지 않습니다</string>
   <string name="presenter_volume_keys_foreground_tip">음량 키를 이전/다음 슬라이드 단추로 사용하려면 화면을 켜 두십시오</string>
   <string name="presenter_volume_keys_tip">음량 키를 이전/다음 슬라이드 단추로 사용하려면 화면을 켜 두거나 장치를 잠그십시오</string>
+    <string name="pref_bubble_title">플로팅 버블</string>
+    <string name="pref_bubble_summary">빠른 클립보드 동기화를 위해 플로팅 버블 표시</string>
 </resources>

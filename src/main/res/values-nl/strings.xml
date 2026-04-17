@@ -468,4 +468,6 @@
   <string name="pref_presenter_enable_volume_keys_summary">Bij standby niet ondersteund op Android versie tussen 13 en 15</string>
   <string name="presenter_volume_keys_foreground_tip">U kunt het scherm aan laten om de volumetoetsen te gebruiken om naar de vorige/volgende dia te gaan</string>
   <string name="presenter_volume_keys_tip">U kunt het scherm aan laten of uw apparaat vergrendelen om de volumetoetsen te gebruiken om naar de vorige/volgende dia te gaan</string>
+    <string name="pref_bubble_title">Zwevende bubbel</string>
+    <string name="pref_bubble_summary">Toon een zwevende bubbel voor snelle klembord-synchronisatie</string>
 </resources>

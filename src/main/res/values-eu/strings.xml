@@ -458,4 +458,6 @@
   <string name="device_host_invalid">Ostalaria baliogabea da. Erabili balio duen ostalari-izen bat, IPv4, edo IPv6</string>
   <string name="device_host_duplicate">Ostalaria jada zerrendan dago</string>
   <string name="enable_fullscreen">Gaitu pantaila osoa</string>
+  <string name="pref_bubble_title">Burbuila flotatzen</string>
+  <string name="pref_bubble_summary">Erakusten du burbuila flotatzen portapaperezko sinkronizazioa azkarra</string>
 </resources>

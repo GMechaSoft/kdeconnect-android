@@ -54,4 +54,6 @@
     <item>Light</item>
     <item>Dark</item>
   </string-array>
+    <string name="pref_bubble_title">Ҳубоби шиცო</string>
+    <string name="pref_bubble_summary">Нишон додани ҳубоби шиცო барои ҳаმგომсозии зуди ҳофизаи муваққатӣ</string>
 </resources>

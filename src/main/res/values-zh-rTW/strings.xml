@@ -449,4 +449,6 @@
   <string name="device_host_invalid">主機是無效的。請使用有效的主機名稱、IPv4 位址或 IPv6 位址</string>
   <string name="device_host_duplicate">主機已在清單中</string>
   <string name="enable_fullscreen">啟用全螢幕</string>
+    <string name="pref_bubble_title">懸浮球</string>
+    <string name="pref_bubble_summary">顯示懸浮球以快速同步剪貼簿</string>
 </resources>

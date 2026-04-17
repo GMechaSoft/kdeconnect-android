@@ -468,4 +468,6 @@
   <string name="pref_presenter_enable_volume_keys_summary">Android’in 13. ve 15. sürümleri arasında bekleme durumunda desteklenmez.</string>
   <string name="presenter_volume_keys_foreground_tip">Bir önceki/bir sonraki slayta geçmek için ekranı açık bırakabilir ve ses düzeyi düğmelerini kullanabilirsiniz.</string>
   <string name="presenter_volume_keys_tip">Bir önceki/bir sonraki slayta geçmek için ekranı açık bırakabilir/kilitleyebilir ve ses düzeyi düğmelerini kullanabilirsiniz.</string>
+    <string name="pref_bubble_title">Yüzen Baloncuk</string>
+    <string name="pref_bubble_summary">Hızlı pano senkronizasyonu için yüzen bir baloncuk göster</string>
 </resources>

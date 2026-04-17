@@ -102,4 +102,6 @@
     <item/>
     <item>Dark</item>
   </string-array>
+    <string name="pref_bubble_title">Plutajući mjehurić</string>
+    <string name="pref_bubble_summary">Prikaži plutajući mjehurić za brzu sinkronizaciju međuspremnika</string>
 </resources>

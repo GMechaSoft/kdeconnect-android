@@ -442,4 +442,6 @@
   <string name="ping_in_progress">Skickar paket…</string>
   <string name="device_host_invalid">Värddatorn är ogiltig. Använd ett giltigt värddatornamn, IPv4 eller IPv6</string>
   <string name="device_host_duplicate">Värddatorn finns redan i listan</string>
+    <string name="pref_bubble_title">Flytande bubbla</string>
+    <string name="pref_bubble_summary">Visa en flytande bubbla för snabb urklippssynkronisering</string>
 </resources>

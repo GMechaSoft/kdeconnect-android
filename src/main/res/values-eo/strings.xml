@@ -428,4 +428,6 @@
   <string name="ping_in_progress">Eĥosondante…</string>
   <string name="device_host_invalid">Gastiganto estas nevalida. Uzu validan gastigantnomon, IPv4, aŭ IPv6</string>
   <string name="device_host_duplicate">Gastiganto jam ekzistas en la listo</string>
+    <string name="pref_bubble_title">Flosanta bobelo</string>
+    <string name="pref_bubble_summary">Montri flosantan bobelon por rapida tondeja sinkronigo</string>
 </resources>

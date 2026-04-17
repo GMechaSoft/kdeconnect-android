@@ -468,4 +468,6 @@
   <string name="pref_presenter_enable_volume_keys_summary">Non supportato durante la sospensione sulle versioni Android comprese tra 13 e 15</string>
   <string name="presenter_volume_keys_foreground_tip">Puoi lasciare lo schermo acceso per usare i tasti del volume per passare alla diapositiva precedente/successiva</string>
   <string name="presenter_volume_keys_tip">Puoi lasciare lo schermo acceso o bloccare il dispositivo per utilizzare i tasti del volume per passare alla diapositiva precedente/successiva</string>
+    <string name="pref_bubble_title">Bolla flottante</string>
+    <string name="pref_bubble_summary">Mostra una bolla flottante per la sincronizzazione rapida degli appunti</string>
 </resources>

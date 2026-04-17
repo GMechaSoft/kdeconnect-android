@@ -431,4 +431,6 @@
   <string name="ping_in_progress">Pingar …</string>
   <string name="device_host_invalid">Ugyldig vert. Bruk eit gyldig vertsnamn, IPv4 eller IPv6.</string>
   <string name="device_host_duplicate">Verten finst i lista frå før</string>
+    <string name="pref_bubble_title">Flytande boble</string>
+    <string name="pref_bubble_summary">Vis ei flytande boble for rask utklippstavle-synkronisering</string>
 </resources>

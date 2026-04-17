@@ -468,4 +468,6 @@
   <string name="pref_presenter_enable_volume_keys_summary">O modo de espera não é compatível com versões do Android entre 13 e 15</string>
   <string name="presenter_volume_keys_foreground_tip">Você pode deixar a tela ligada para usar as teclas de volume para ir para o slide anterior/seguinte</string>
   <string name="presenter_volume_keys_tip">Você pode deixar a tela ligada ou bloquear o dispositivo para usar as teclas de volume para ir para o slide anterior/seguinte</string>
+  <string name="pref_bubble_title">Bolha flutuante</string>
+  <string name="pref_bubble_summary">Exibe uma bolha flutuante para sincronização rápida da área de transferência</string>
 </resources>

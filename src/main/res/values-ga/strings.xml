@@ -51,4 +51,6 @@
     <item>Light</item>
     <item>Dark</item>
   </string-array>
+    <string name="pref_bubble_title">Boig-shuil bhog</string>
+    <string name="pref_bubble_summary">Taispeáin boig-shuil bhog le haghaidh sioncronú tapa gearrthaisce</string>
 </resources>

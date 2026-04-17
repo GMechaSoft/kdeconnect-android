@@ -297,4 +297,6 @@
     <item>Hele</item>
     <item>Tume</item>
   </string-array>
+  <string name="pref_bubble_title">Lendev vesiik</string>
+  <string name="pref_bubble_summary">Näitab lendavat vesikut kiirele lõikusvaliku sünkroniseerimiseks</string>
 </resources>

@@ -460,4 +460,6 @@
   <string name="pref_presenter_enable_volume_keys_summary">待机控制在安卓 13 到 15 版之间不支持</string>
   <string name="presenter_volume_keys_foreground_tip">您可以保持屏幕亮起以用音量键作为上一张/下一张幻灯片按钮</string>
   <string name="presenter_volume_keys_tip">您可以保持屏幕亮起或锁定设备以用音量键作为上一张/下一张幻灯片按钮</string>
+    <string name="pref_bubble_title">悬浮球</string>
+    <string name="pref_bubble_summary">显示悬浮球以快速同步剪贴板</string>
 </resources>

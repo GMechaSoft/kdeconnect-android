@@ -433,4 +433,6 @@
   <string name="ping_in_progress">Enviando un ping…</string>
   <string name="device_host_invalid">O servidor non é válido. Use un nome de servidor, enderezo IPv4 ou enderezo IPv6 válido.</string>
   <string name="device_host_duplicate">O servidor xa existe na lista.</string>
+  <string name="pref_bubble_title">Burboa flotante</string>
+  <string name="pref_bubble_summary">Amosar unha burboa flotante para a sincronización rápida do portapapeis</string>
 </resources>

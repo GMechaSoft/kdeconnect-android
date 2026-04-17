@@ -402,4 +402,6 @@
   <string name="enable_udp_broadcast">UDP cihaz aşkarlamasını aktiv edin</string>
   <string name="receive_notifications_permission_explanation">Başqa cihazdan bildirişlər almaq üçün onlara icazə vermək lazımdır</string>
   <string name="findmyphone_notifications_explanation">Tətbiq arxa planda işləyən zaman telefonun zəng çala bilməsi üçün bildirişlərə icazə vermək lazımdır</string>
+  <string name="pref_bubble_title">Yüyan buru</string>
+  <string name="pref_bubble_summary">Yüyan burunu sürükləmək üçün sürüşdürülmüş kliplər</string>
 </resources>

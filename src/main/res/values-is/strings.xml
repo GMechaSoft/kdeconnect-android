@@ -414,4 +414,6 @@
   <string name="ping_in_progress">Sendi ping-beiðni…</string>
   <string name="device_host_invalid">Ógilt vélarheiti. Notaðu gilt vélarheiti, IPv4 eða IPv6</string>
   <string name="device_host_duplicate">Hýsivélin er nú þegar á listanum</string>
+    <string name="pref_bubble_title">Fljótandi bóla</string>
+    <string name="pref_bubble_summary">Sýna fljótandi bólu fyrir hraða samstillingu á klippiborði</string>
 </resources>

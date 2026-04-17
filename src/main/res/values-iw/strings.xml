@@ -484,4 +484,6 @@
   <string name="pref_presenter_enable_volume_keys_summary">במצב המתנה לא זמין ב־Android בגרסאות בין 13 ל־15</string>
   <string name="presenter_volume_keys_foreground_tip">אפשר להשאיר את המסך פעיל כדי להשתמש במקשי עוצמת השמע כדי לעבור לשקופית הקודמת/הבאה</string>
   <string name="presenter_volume_keys_tip">אפשר להשאיר את המסך פעיל או לנעול את המכשיר שלך ולהשתמש במקשי עוצמת השמע כדי לעבור לשקופית הקודמת/הבאה</string>
+    <string name="pref_bubble_title">בועה צפה</string>
+    <string name="pref_bubble_summary">הצגת בועה צפה לסנכרון מהיר של לוח הגזירים</string>
 </resources>

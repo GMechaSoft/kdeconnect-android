@@ -474,4 +474,6 @@
   <string name="pref_presenter_enable_volume_keys_summary">În așteptare nu e susținut pe versiuni de Android între 13 și 15.</string>
   <string name="presenter_volume_keys_foreground_tip">Puteți lăsa ecranul pornit pentru a folosi butoanele de volum pentru a merge la diapozitivul precedent/următor</string>
   <string name="presenter_volume_keys_tip">Puteți lăsa ecranul pornit sau puteți bloca dispozitivul pentru a folosi butoanele de volum pentru a merge la diapozitivul precedent/următor</string>
+  <string name="pref_bubble_title">Plovit bubur</string>
+  <string name="pref_bubble_summary">Arată o bulă flotantă pentru sincronizare rapidă a clipboard-ului</string>
 </resources>

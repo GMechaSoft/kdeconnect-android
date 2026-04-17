@@ -400,4 +400,6 @@
   <string name="enable_udp_broadcast">UDP சாதன கண்டுபிடிப்பை இயக்கு</string>
   <string name="receive_notifications_permission_explanation">மற்ற சாதனங்களில் அறிவிப்புகளைப் பெறுவதற்கு அறிவிப்புகள் அனுமதி தேவை</string>
   <string name="findmyphone_notifications_explanation">செயலி செயலில் இல்லாதபோதும் தொலைபேசியை இசைக்கச்செய்ய அறிவிப்புகள் அனுமதி தேவை</string>
+    <string name="pref_bubble_title">மிதக்கும் குமிழி</string>
+    <string name="pref_bubble_summary">விரைவான கிளிப்போர்டு ஒத்திசைவுக்கு மிதக்கும் குமிழியைக் காட்டு</string>
 </resources>

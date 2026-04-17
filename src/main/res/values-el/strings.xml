@@ -358,4 +358,6 @@
   <string name="holger_kaelberer_task">Πρόσθετο απομακρυσμένου πληκτρολπγίου και διορθώσεις σφαλμάτων</string>
   <string name="saikrishna_arcot_task">Υποστήριξη της χρήσης του πληκτρολογίου στο πρόσθετο απομακρυσμένης σύνδεσης, διορθώσεις σφαλμάτων και γενικές βελτιώσεις</string>
   <string name="everyone_else">Οποιοσδήποτε άλλος έχει συμβάλλει στο παρελθόν στο KDE Contact</string>
+    <string name="pref_bubble_title">Αναδυόμενη φυσαλίδα</string>
+    <string name="pref_bubble_summary">Εμφάνιση αναδυόμενης φυσαλίδας για γρήγορο συγχρονισμό του πρόχειρου</string>
 </resources>

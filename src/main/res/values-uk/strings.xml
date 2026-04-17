@@ -484,4 +484,6 @@
   <string name="pref_presenter_enable_volume_keys_summary">Підтримки «При присиплянні» не передбачено у версіях Android від 13 до 15</string>
   <string name="presenter_volume_keys_foreground_tip">Ви можете не вимикати екран і користуватися кнопками зміни гучності для переходу до попереднього або наступного слайда</string>
   <string name="presenter_volume_keys_tip">Ви можете не вимикати екран або заблокувати ваш пристрій і користуватися кнопками зміни гучності для переходу до попереднього або наступного слайда</string>
+    <string name="pref_bubble_title">Плавальна бульбашка</string>
+    <string name="pref_bubble_summary">Показувати плавальну бульбашку для швидкої синхронизації буфера обміну</string>
 </resources>

@@ -259,4 +259,6 @@
     <item>Claridá</item>
     <item>Escuridá</item>
   </string-array>
+  <string name="pref_bubble_title">Burbaya flotante</string>
+  <string name="pref_bubble_summary">Amosar una burbaya flotante pa la sincronización rápida del portapapeles</string>
 </resources>

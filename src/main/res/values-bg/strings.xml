@@ -436,4 +436,6 @@
   <string name="ping_in_progress">Изпращане на пинг…</string>
   <string name="device_host_invalid">Хостът е невалиден. Използвайте валидно име на хост, IPv4 или IPv6</string>
   <string name="device_host_duplicate">Хостът вече е в списъка</string>
+  <string name="pref_bubble_title">Плувала мехур</string>
+  <string name="pref_bubble_summary">Показване на плувал мехур за бързо синхронизиране на клипборда</string>
 </resources>

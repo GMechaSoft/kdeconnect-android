@@ -484,4 +484,6 @@
   <string name="pref_presenter_enable_volume_keys_summary">W stanie czuwania nieobsługiwane na Androidzie w wersji od 13 do 15</string>
   <string name="presenter_volume_keys_foreground_tip">Możesz pozostawić ekran włączonym, aby używać przycisków głośności, aby przejść do kolejnej/poprzedniej strony</string>
   <string name="presenter_volume_keys_tip">Możesz pozostawić ekran włączonym lub zablokować swoje urządzenie, aby używać przycisków głośności, aby przejść do kolejnej/poprzedniej strony</string>
+    <string name="pref_bubble_title">Pływająca bańka</string>
+    <string name="pref_bubble_summary">Pokaż pływającą bańkę do szybkiej synchronizacji schowka</string>
 </resources>

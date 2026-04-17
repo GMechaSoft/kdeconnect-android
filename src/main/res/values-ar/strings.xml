@@ -500,4 +500,6 @@
   <string name="pref_presenter_enable_volume_keys_summary">الوضع الاحتياطي غير متوفر في إصدارات أندرويد 13 إلى 15</string>
   <string name="presenter_volume_keys_foreground_tip">يمكنك ترك الشاشة تعمل لاستخدام مفاتيح الصوت للانتقال إلى الشريحة السابقة/التالية</string>
   <string name="presenter_volume_keys_tip">يمكنك ترك الشاشة تعمل أو قفل جهازك لاستخدام مفاتيح الصوت للانتقال إلى الشريحة السابقة/التالية.</string>
+  <string name="pref_bubble_title">زوافة متنطفة</string>
+  <string name="pref_bubble_summary">ظهور زوافة متنطفة لمتطاف سريع للكلبيبرد</string>
 </resources>
