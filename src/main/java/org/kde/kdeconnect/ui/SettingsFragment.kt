@@ -64,6 +64,7 @@ class SettingsFragment : PreferenceFragmentCompat() {
             deviceNamePref(context),
             themePref(context),
             persistentNotificationPref(context),
+            floatingBubblePref(context),
             trustedNetworkPref(context),
             devicesByIpPref(context),
             bluetoothSupportPref(context),
@@ -252,6 +253,20 @@ class SettingsFragment : PreferenceFragmentCompat() {
         isSelectable = false
         setTitle(R.string.settings_more_settings_title)
         setSummary(R.string.settings_more_settings_text)
+    }
+
+    private fun floatingBubblePref(context: Context) = SwitchPreference(context).apply {
+        key = "kdeconnect_bubble_enabled"
+        setTitle(R.string.pref_bubble_title)
+        setSummary(R.string.pref_bubble_summary)
+        val prefs = android.preference.PreferenceManager.getDefaultSharedPreferences(context)
+        isChecked = prefs.getBoolean(key, false)
+        onPreferenceChangeListener = Preference.OnPreferenceChangeListener { _: Preference?, newValue: Any ->
+            val isChecked = newValue as Boolean
+            prefs.edit().putBoolean(key, isChecked).apply()
+            BackgroundService.instance?.toggleBubble(isChecked)
+            true
+        }
     }
 
     companion object {

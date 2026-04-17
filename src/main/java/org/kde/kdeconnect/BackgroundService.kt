@@ -38,6 +38,8 @@ import org.kde.kdeconnect.plugins.clipboard.ClipboardFloatingActivity
 import org.kde.kdeconnect.plugins.runcommand.RunCommandActivity
 import org.kde.kdeconnect.plugins.runcommand.RunCommandPlugin
 import org.kde.kdeconnect.plugins.share.SendFileActivity
+import org.kde.kdeconnect.ui.FloatingBubbleManager
+import org.kde.kdeconnect.ui.FloatingBubbleView
 import org.kde.kdeconnect.ui.MainActivity
 import org.kde.kdeconnect_tp.R
 
@@ -52,6 +54,7 @@ class BackgroundService : Service() {
     private lateinit var applicationInstance: KdeConnect
 
     private val linkProviders = mutableListOf<BaseLinkProvider>()
+    private var bubbleManager: FloatingBubbleManager? = null
 
     private val connectedToNonCellularNetwork = MutableLiveData<Boolean>()
     /** Indicates whether device is connected over wifi / usb / bluetooth / (anything other than cellular) */
@@ -97,6 +100,20 @@ class BackgroundService : Service() {
 
     /** This will called only once, even if we launch the service intent several times */
     @MainThread
+    private fun updateBubbleVisibility() {
+        val prefs = android.preference.PreferenceManager.getDefaultSharedPreferences(this)
+        val isEnabled = prefs.getBoolean("kdeconnect_bubble_enabled", false)
+
+        if (isEnabled && android.provider.Settings.canDrawOverlays(this)) {
+            if (bubbleManager == null) {
+                bubbleManager = FloatingBubbleManager(this)
+            }
+            bubbleManager?.showBubble()
+        } else {
+            bubbleManager?.hideBubble()
+        }
+    }
+
     override fun onCreate() {
         super.onCreate()
         Log.d("KdeConnect/BgService", "onCreate")
@@ -137,6 +154,10 @@ class BackgroundService : Service() {
         for (linkProvider in linkProviders) {
             linkProvider.onStart()
         }
+
+        // Initialize floating bubble based on preference
+        updateBubbleVisibility()
+
         initialized = true
     }
 
@@ -226,11 +247,18 @@ class BackgroundService : Service() {
     override fun onDestroy() {
         Log.d("KdeConnect/BgService", "onDestroy")
         initialized = false
+        bubbleManager?.hideBubble()
         for (linkProvider in linkProviders) {
             linkProvider.onStop()
         }
         KdeConnect.getInstance().removeDeviceListChangedCallback("BackgroundService")
         super.onDestroy()
+    }
+
+    fun toggleBubble(enabled: Boolean) {
+        val prefs = android.preference.PreferenceManager.getDefaultSharedPreferences(this)
+        prefs.edit().putBoolean("kdeconnect_bubble_enabled", enabled).apply()
+        updateBubbleVisibility()
     }
 
     override fun onBind(intent: Intent): IBinder? = null

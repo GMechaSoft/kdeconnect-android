@@ -65,6 +65,17 @@ public class ClipboardFloatingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clipboard_floating);
+
+        // Make the activity completely transparent and invisible
+        getWindow().setFlags(
+                WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE |
+                WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE |
+                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
+                WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE |
+                WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE |
+                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
+        );
+
         WindowManager.LayoutParams wlp = getWindow().getAttributes();
         wlp.dimAmount = 0;
         wlp.flags = WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS |
